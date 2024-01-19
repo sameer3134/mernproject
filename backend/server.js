@@ -20,6 +20,7 @@ app.use("/api/notes", noteRoutes);
 app.use("/api/users", userRoutes);
 
 // --------------------------deployment------------------------------
+{/* */}
 const __dirname = path.resolve();
 
 if (process.env.NODE_ENV === "production") {
